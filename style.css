@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+This file created by Arthur Systems
+http://arthur.systems/
+YouTube Channel:
+https://www.youtube.com/c/ArthurSystems
+© 2016
+*/
+
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.register fieldset legend{
+	font-size: 22px;
+}
+
+
+.register fieldset input{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 10px 0;
+	border: 1px solid #CCC;
+}
+
+.register fieldset input:last-child{
+	margin: 20px 0;
+	border: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: #5093E3;
+	color: #FFFFFF;
+}
+
+/* Error class */
+.error{
+	border: 1px solid #FF0004 !important;
+}
